@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GACustomSlider_Example' do
+  pod 'GACustomSlider', :path => '../'
+
+  target 'GACustomSlider_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
