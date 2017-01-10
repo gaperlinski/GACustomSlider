@@ -1,6 +1,5 @@
 # GACustomSlider
 
-[![CI Status](http://img.shields.io/travis/gaperlinski/GACustomSlider.svg?style=flat)](https://travis-ci.org/gaperlinski/GACustomSlider)
 [![Version](https://img.shields.io/cocoapods/v/GACustomSlider.svg?style=flat)](http://cocoapods.org/pods/GACustomSlider)
 [![License](https://img.shields.io/cocoapods/l/GACustomSlider.svg?style=flat)](http://cocoapods.org/pods/GACustomSlider)
 [![Platform](https://img.shields.io/cocoapods/p/GACustomSlider.svg?style=flat)](http://cocoapods.org/pods/GACustomSlider)
@@ -10,6 +9,8 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+To install this library, you need to set your development target to at least iOS 8.
 
 ## Installation
 
@@ -22,7 +23,7 @@ pod "GACustomSlider"
 
 ## Author
 
-gaperlinski, apiejh@gmail.com
+Grzegorz Aperliński, gaperlinski@gmail.com
 
 ## License
 
