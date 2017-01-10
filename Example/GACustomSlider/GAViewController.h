@@ -11,6 +11,7 @@
 
 @interface GAViewController : UIViewController
 
+@property (nonatomic) UILabel *valueLabel;
 @property (nonatomic) GACustomSlider *customSlider;
 
 @end

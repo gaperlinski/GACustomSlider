@@ -42,6 +42,12 @@
   
   // The slider is also compatible with the Interface Builder and Auto Layout;
   // All the properties above can be set in IB.
+  
+  // Finally, let's instantiate a label to display slider values
+  CGRect labelFrame = CGRectMake(margin, margin * 3, self.view.frame.size.width - margin * 2, 30);
+  self.valueLabel = [[UILabel alloc] initWithFrame:labelFrame];
+  [self.view addSubview:self.valueLabel];
+  [self updateValueLabel];
 }
 
 - (void)didReceiveMemoryWarning
@@ -53,8 +59,13 @@
 
 - (void)slideValueChanged:(id)control
 {
-//  NSLog(@"Slider value changed: (%.2f,%.2f)",
-//        _customSlider.leftValue, _customSlider.rightValue);
+  [self updateValueLabel];
+}
+
+- (void)updateValueLabel
+{
+  self.valueLabel.text = [NSString stringWithFormat:@"Left value: %.2f, right value: %.2f",
+                          _customSlider.leftValue, _customSlider.rightValue];
 }
 
 @end
