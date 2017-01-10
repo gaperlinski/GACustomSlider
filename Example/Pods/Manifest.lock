@@ -1,0 +1,16 @@
+PODS:
+  - GACustomSlider (1.0.0)
+
+DEPENDENCIES:
+  - GACustomSlider (from `../`)
+
+EXTERNAL SOURCES:
+  GACustomSlider:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GACustomSlider: 5bea0c3a0ec01f00f4799fd1ed6333722f97718f
+
+PODFILE CHECKSUM: c221cace7355ebc999cf7c3efabbb4d90c5b7a50
+
+COCOAPODS: 1.1.0.rc.2

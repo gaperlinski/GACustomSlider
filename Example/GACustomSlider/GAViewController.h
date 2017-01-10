@@ -7,7 +7,10 @@
 //
 
 @import UIKit;
+#import <GACustomSlider/GACustomSlider.h>
 
 @interface GAViewController : UIViewController
+
+@property (nonatomic) GACustomSlider *customSlider;
 
 @end

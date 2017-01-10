@@ -13,8 +13,6 @@
 
 @interface GACustomSliderThumbLayer : CALayer
 
-/** This property informs whether the thumb is currently being dragged. */
-@property BOOL highlighted;
-@property (weak) GACustomSlider* slider;
+@property (weak) GACustomSlider *slider;
 
 @end

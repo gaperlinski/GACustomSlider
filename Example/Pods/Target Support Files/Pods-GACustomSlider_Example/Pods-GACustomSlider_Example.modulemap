@@ -1,0 +1,6 @@
+framework module Pods_GACustomSlider_Example {
+  umbrella header "Pods-GACustomSlider_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

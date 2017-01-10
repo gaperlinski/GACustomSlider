@@ -8,8 +8,8 @@
 
 #import "GACustomSliderThumbLayer.h"
 
-@implementation GACustomSliderThumbLayer {
-
+@implementation GACustomSliderThumbLayer
+{
   // Roundness of the slider thum;
   // could be potentially exposed to the user as a customizable property of the class
   float _roundness;

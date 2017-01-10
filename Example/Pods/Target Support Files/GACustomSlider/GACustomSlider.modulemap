@@ -1,0 +1,6 @@
+framework module GACustomSlider {
+  umbrella header "GACustomSlider-umbrella.h"
+
+  export *
+  module * { export * }
+}
