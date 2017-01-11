@@ -10,6 +10,8 @@
 
 IB_DESIGNABLE
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface GACustomSlider : UIControl
 
 /// The value expressed by the left thumb.
@@ -39,3 +41,5 @@ IB_DESIGNABLE
 - (float) positionForValue:(float)value;
 
 @end
+
+NS_ASSUME_NONNULL_END
