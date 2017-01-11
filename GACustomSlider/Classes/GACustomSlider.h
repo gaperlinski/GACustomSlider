@@ -24,12 +24,12 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic) IBInspectable float minDistance;
 
 /// The color of the slider track.
-@property (nonatomic) IBInspectable UIColor *trackColor;
+@property (nonatomic, nonnull) IBInspectable UIColor *trackColor;
 
 /// The color of the highlighted portion of the track between the left and right thumb.
-@property (nonatomic) IBInspectable UIColor *trackHighlightColor;
+@property (nonatomic, nonnull) IBInspectable UIColor *trackHighlightColor;
 /// The color of the left and right thumb.
-@property (nonatomic) IBInspectable UIColor *thumbColor;
+@property (nonatomic, nonnull) IBInspectable UIColor *thumbColor;
 
 /*!
  @brief Returns the position on the slider for given value.
